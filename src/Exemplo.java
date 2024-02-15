@@ -1,8 +1,9 @@
 public class Exemplo {
     
     public static void main(String args[]) {
-        Integer num = 1;
+        int num = 1;
+        Integer wrapperInt = Integer.valueOf(num);
 
-        System.out.println(num);
+        System.out.println(wrapperInt);
     }
 }
